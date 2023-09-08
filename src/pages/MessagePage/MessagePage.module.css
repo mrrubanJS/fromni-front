@@ -1,0 +1,52 @@
+.wrapper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main{
+    max-width: 1087px;
+    margin :15px 15px;
+    padding: 0px 15px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items:flex-start;
+}
+
+.message{
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.limits{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+
+}
+.newButton__form{
+    display: flex;
+    gap: 10px;
+}
+.newButton__container{
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.newButton{
+    min-width: 300px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px;
+}
